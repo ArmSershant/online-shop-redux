@@ -1,0 +1,30 @@
+.mainDiv {
+  display: grid;
+  flex-direction: column;
+}
+.products {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.addProduct {
+  position: absolute;
+  left: 93%;
+  top: 5%;
+  width: 90px;
+  cursor: pointer;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(0, 45, 127);
+  color: rgba(226, 194, 194, 0.718);
+  transition: 0.7s;
+  padding: 4px;
+}
+.addProduct:hover {
+  color: rgb(0, 45, 127);
+  background-color: yellow;
+}
+.mainDiv >h1{
+  margin: auto;
+}

@@ -1,0 +1,44 @@
+.inputForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 10%;
+}
+.input {
+  width: 10rem;
+  padding: 3px;
+  border: none;
+  text-align: center;
+  margin: 5px;
+  transition: 0.7s;
+}
+.input:hover {
+  border-bottom: 2px solid red;
+  width: 5rem;
+  color: green;
+}
+.input::placeholder {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.679);
+}
+.input:focus {
+  outline: none;
+  color: red;
+}
+.goBack{
+  position:absolute;
+  right:95%;
+  bottom:90%;
+  border:none;
+  border-radius: 3px;
+  background-color: blue;
+  color:white;
+  transition: 0.7s;
+  padding: 5px;
+}
+.goBack:hover{
+  background-color: yellow;
+  color: rgb(0, 45, 127);
+}

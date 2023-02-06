@@ -1,0 +1,44 @@
+.cart {
+  background-color: aqua;
+  border-radius: 3px;
+  text-align: center;
+  width: 25rem;
+}
+.quantity {
+  border: none;
+  background-color: blue;
+  color: white;
+  border-radius: 3px;
+  padding: 5px;
+  transition: 0.5s;
+}
+.quantity:hover {
+  background-color: rgba(0, 0, 255, 0.678);
+  color: black;
+}
+.delete {
+  border: none;
+  background-color: red;
+  color: white;
+  border-radius: 3px;
+  transition: 0.5s;
+}
+.delete:hover {
+  background-color: rgba(255, 0, 0, 0.707);
+  color: black;
+}
+.clear {
+  margin-left: 10rem;
+  border: none;
+  background-color: aliceblue;
+  border-radius: 3px;
+  transition: 0.7s;
+  padding: 7px;
+}
+.clear:hover {
+  background-color: red;
+}
+table{
+  margin: auto;
+  padding: 10px;
+}
